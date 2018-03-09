@@ -1,4 +1,4 @@
-var PORT = 30000;
+var PORT = 1883;
 
 var net = require('net');
 var server = net.createServer(function(c) { //'connection' listener
